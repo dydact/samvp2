@@ -1,0 +1,3193 @@
+{
+  "directories": {
+    ".": {
+      "files": [
+        "project_validation.log",
+        "analyze_and_fix_structure.sh",
+        "project_analysis.log",
+        "jest.setup.js",
+        "validate_project.sh.bak",
+        "setup_amplify.sh",
+        "jest.config.js",
+        "jest.integration.config.js",
+        "project_cleanup.log",
+        "setup_dev_env.sh",
+        "babel.config.js",
+        "package-lock.json",
+        "package.json",
+        "project_structure.json",
+        "project_cleanup 2.log",
+        "tsconfig.json",
+        "validate_project.sh",
+        "update_project_config.sh"
+      ]
+    },
+    "master_src": {
+      "files": [
+        "index.tsx",
+        "App.tsx",
+        "main.tsx",
+        "App.css",
+        "index.js",
+        "index.css",
+        "api.ts",
+        "types.ts",
+        "vite-env.d.ts",
+        "index.ts"
+      ]
+    },
+    "master_src/mocks": {
+      "files": [
+        "authenticator.ts"
+      ]
+    },
+    "master_src/lambdas": {
+      "files": [
+        "postConfirmation.ts"
+      ]
+    },
+    "master_src/context": {
+      "files": [
+        "AuthContext.tsx"
+      ]
+    },
+    "master_src/app": {
+      "files": [
+        "layout.tsx"
+      ]
+    },
+    "master_src/config": {
+      "files": [
+        "integrationTest.ts",
+        "serviceIntegration.ts"
+      ]
+    },
+    "master_src/auth": {
+      "files": [
+        "types.ts",
+        "AuthProvider.tsx"
+      ]
+    },
+    "master_src/tests": {
+      "files": [
+        "README.md"
+      ]
+    },
+    "master_src/tests/integration": {
+      "files": [
+        "services.integration.test.tsx"
+      ]
+    },
+    "master_src/utils": {
+      "files": [
+        "subscriptionManager.ts",
+        "formatters.ts",
+        "dummyData.ts"
+      ]
+    },
+    "master_src/utils/migration": {
+      "files": [
+        "index.ts"
+      ]
+    },
+    "master_src/utils/validation": {
+      "files": [
+        "index.ts"
+      ]
+    },
+    "master_src/amplify": {
+      "files": [
+      ]
+    },
+    "master_src/amplify/api": {
+      "files": [
+      ]
+    },
+    "master_src/amplify/api/resolvers": {
+      "files": [
+        "Mutation.callExternalService.ts"
+      ]
+    },
+    "master_src/amplify/data": {
+      "files": [
+        "resource.ts"
+      ]
+    },
+    "master_src/schema": {
+      "files": [
+        "medical.ts",
+        "scheduling.ts",
+        "index.ts",
+        "auth.ts",
+        "alerts.ts"
+      ]
+    },
+    "master_src/schema/types": {
+      "files": [
+        "index.ts"
+      ]
+    },
+    "master_src/styles": {
+      "files": [
+        "old.layout.bak.css",
+        "globals.css"
+      ]
+    },
+    "master_src/components": {
+      "files": [
+        "ClientProfile.tsx",
+        "ServiceInformation.tsx",
+        "UserProfile.tsx",
+        "TodoItem.tsx",
+        "ProtectedRoute.tsx",
+        "Login.tsx",
+        "TaskRIcon.tsx",
+        "UserMenu.tsx",
+        "PayrollBillingTimeTracking.tsx",
+        "AuthModal.tsx",
+        "AppointmentsSection.tsx",
+        "UserAvatarDropdown.tsx",
+        "PlaceholderComponent.tsx",
+        "PatientMonitoring.tsx",
+        "ActionMenu.tsx",
+        "MedicalInformation.tsx",
+        "BillingInformationSection.tsx",
+        "TaskR.tsx",
+        "PersonnelTab.tsx",
+        "FileUpload.tsx",
+        "Calendar.tsx",
+        "SignInModal.tsx",
+        "PlanDetails.tsx",
+        "Notifications.tsx",
+        "import { type ClientSchema, a, defineDat.tsx",
+        "LoadingSpinner.tsx",
+        "UserSelect.tsx",
+        "DocumentsSection.tsx",
+        "DynamicSidebar.tsx",
+        "DataVisualization.tsx",
+        "DevModeToggle.tsx",
+        "QuickActions.tsx",
+        "TaskRLogo.tsx",
+        "ChatBubble.tsx",
+        "TaskAssignment.tsx",
+        "Sidebar.tsx",
+        "Scheduling.tsx",
+        "ClientInformation.tsx",
+        "Table.tsx",
+        "RevenueChart.tsx",
+        "TaskForm.tsx",
+        "GoalsAndProgress.tsx",
+        "IntegrationTest.tsx",
+        "SecureErrorBoundary.tsx",
+        "TodoList.tsx",
+        "ErrorBoundary.tsx"
+      ]
+    },
+    "master_src/components/ui": {
+      "files": [
+        "tabs.tsx",
+        "popover.tsx",
+        "Chat.tsx"
+      ]
+    },
+    "master_src/components/ui/elements": {
+      "files": [
+        "tabs.tsx",
+        "card.tsx",
+        "popover.tsx",
+        "Footer.tsx",
+        "button.tsx",
+        "dropdown-menu.tsx",
+        "input.tsx"
+      ]
+    },
+    "master_src/components/ui/UserIcon": {
+      "files": [
+        "avatarImage.tsx",
+        "Avatar.tsx"
+      ]
+    },
+    "master_src/components/forms": {
+      "files": [
+        "InvoiceForm.tsx",
+        "InvoiceList.tsx"
+      ]
+    },
+    "master_src/components/auth": {
+      "files": [
+        "AuthPopup.tsx",
+        "AuthModal.tsx",
+        "SignUpForm.tsx",
+        "AuthWrapper.tsx"
+      ]
+    },
+    "master_src/components/__tests__": {
+      "files": [
+        "PatientMonitoring.test.tsx"
+      ]
+    },
+    "master_src/hooks": {
+      "files": [
+        "useServiceIntegration.ts",
+        "useTasks.ts",
+        "useAuth.ts",
+        "useAuthorization.ts",
+        "useSecureData.ts"
+      ]
+    },
+    "master_src/lib": {
+      "files": [
+        "utils.ts"
+      ]
+    },
+    "master_src/assets": {
+      "files": [
+        "react.svg"
+      ]
+    },
+    "master_src/pages": {
+      "files": [
+        "ClientProfile.tsx",
+        "FinanceManagement.tsx",
+        "Personnel.tsx",
+        "ClientManagement.tsx",
+        "Dydact.tsx",
+        "Dashboard.tsx",
+        "TreatmentPlans.tsx",
+        "ProfilePage.tsx",
+        "EmployeeProfile.tsx",
+        "Home.tsx",
+        "Contact.tsx",
+        "VideoAnalysis.tsx",
+        "TimeTracking.tsx",
+        "AnomalyDetection.tsx",
+        "Payroll.tsx",
+        "PatientMonitoring.tsx",
+        "TaskR.tsx",
+        "AlertsNotifications.tsx",
+        "DataAnalytics.tsx",
+        "SignUp.tsx",
+        "Analytics.tsx",
+        "PayrollBilling.tsx",
+        "Profile.tsx",
+        "Privacy.tsx",
+        "TaskAssignment.tsx",
+        "SignUpPage.tsx",
+        "Scheduling.tsx",
+        "EmployeeManagement.tsx",
+        "Billing.tsx",
+        "Chat.tsx",
+        "ActivityRecognition.tsx",
+        "Clients.tsx",
+        "PrivacySecurity.tsx",
+        "SignIn.tsx",
+        "AdminDashboard.tsx",
+        "About.tsx",
+        "Legal.tsx"
+      ]
+    },
+    "master_src/services": {
+      "files": [
+        "videoStream.ts",
+        "authService.ts",
+        "api.ts"
+      ]
+    },
+    "master_src/src": {
+      "files": [
+      ]
+    },
+    "master_src/src/types": {
+      "files": [
+        "integration.ts"
+      ]
+    },
+    "master_src/src/tests": {
+      "files": [
+        "auth.test.tsx"
+      ]
+    },
+    "master_src/src/tests/integration": {
+      "files": [
+        "healthcareCRM.test.ts",
+        "goAlert.test.ts",
+        "hospitalRun.test.ts"
+      ]
+    },
+    "master_src/src/utils": {
+      "files": [
+        "hipaa.ts",
+        "dataAccess.ts"
+      ]
+    },
+    "master_src/src/amplify": {
+      "files": [
+      ]
+    },
+    "master_src/src/amplify/data": {
+      "files": [
+        "resource.ts"
+      ]
+    },
+    "master_src/src/services": {
+      "files": [
+        "AnalyticsService.ts",
+        "VideoProcessingService.ts"
+      ]
+    },
+    "amplify": {
+      "files": [
+        "cli.json",
+        "README.md",
+        "team-provider-info.json"
+      ]
+    },
+    "amplify/#current-cloud-backend": {
+      "files": [
+        "tags.json",
+        "amplify-meta.json"
+      ]
+    },
+    "amplify/#current-cloud-backend/awscloudformation": {
+      "files": [
+      ]
+    },
+    "amplify/#current-cloud-backend/awscloudformation/build": {
+      "files": [
+        "root-cloudformation-stack.json"
+      ]
+    },
+    "amplify/backend": {
+      "files": [
+        "backend-config.json",
+        "backend-config.ts",
+        "tags.json",
+        "amplify-meta.json"
+      ]
+    },
+    "amplify/backend/types": {
+      "files": [
+        "amplify-dependent-resources-ref.d.ts"
+      ]
+    },
+    "amplify/backend/awscloudformation": {
+      "files": [
+      ]
+    },
+    "amplify/backend/awscloudformation/build": {
+      "files": [
+        "root-cloudformation-stack.json"
+      ]
+    },
+    "amplify/hooks": {
+      "files": [
+        "post-push.sh.sample",
+        "README.md",
+        "pre-push.js.sample"
+      ]
+    },
+    "amplify/data": {
+      "files": [
+        "resource.ts"
+      ]
+    },
+    "backup_20241220_092308 2": {
+      "files": [
+        "sqlc.version",
+        "CODE_OF_CONDUCT.md",
+        "Procfile.prod",
+        "LICENSE.md",
+        "setup_goalert_implementation.py",
+        "go.mod",
+        "protoc.version",
+        "sqlc.yaml",
+        "goalert-master.code-workspace",
+        "Makefile",
+        "Procfile.cypress.ci",
+        "Makefile.binaries.mk",
+        "Procfile.cypress",
+        "cypress.config.js",
+        "Procfile.cypress.prod",
+        "golangci-lint.version",
+        "go.sum",
+        "CONTRIBUTORS",
+        "README.md",
+        "prettier.config.js",
+        "mailpit.version",
+        "package-lock.json",
+        "package.json",
+        "CONTRIBUTING.md",
+        "Procfile.integration",
+        "tsconfig.json",
+        "prometheus.version",
+        "Procfile",
+        "playwright.config.ts",
+        "Procfile.swo"
+      ]
+    },
+    "backup_20241220_092308 2/cmd": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/cmd/goalert-slack-email-sync": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/cmd/regendb": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/cmd/goalert": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/remotemonitor": {
+      "files": [
+        "config.go",
+        "monitor.go",
+        "instance.go",
+        "doc.go",
+        "sms.go",
+        "requestid.go"
+      ]
+    },
+    "backup_20241220_092308 2/schedule": {
+      "files": [
+        "schedule_test.go",
+        "nfydest.go",
+        "store.go",
+        "temporaryschedule_test.go",
+        "oncallnotificationrule.go",
+        "storedata.go",
+        "search.go",
+        "temporaryschedule.go",
+        "fixedshift.go",
+        "validate.go",
+        "data.go",
+        "queries.sql",
+        "storetemporaryschedules.go",
+        "schedule.go",
+        "storeoncallnotifications.go"
+      ]
+    },
+    "backup_20241220_092308 2/schedule/rule": {
+      "files": [
+        "store.go",
+        "rule.go",
+        "rule_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/schedule/rotation": {
+      "files": [
+        "nfydest.go",
+        "store.go",
+        "type.go",
+        "rotation_test.go",
+        "search.go",
+        "participant.go",
+        "state.go",
+        "rotation.go"
+      ]
+    },
+    "backup_20241220_092308 2/site24x7": {
+      "files": [
+        "site24x7.go"
+      ]
+    },
+    "backup_20241220_092308 2/prometheusalertmanager": {
+      "files": [
+        "prometheusalertmanager.go"
+      ]
+    },
+    "backup_20241220_092308 2/timezone": {
+      "files": [
+        "store.go",
+        "zones.txt",
+        "search.go",
+        "zones.go",
+        "aliases.txt"
+      ]
+    },
+    "backup_20241220_092308 2/app": {
+      "files": [
+        "initsmtpsrv.go",
+        "runapp.go",
+        "pprof.go",
+        "middlewaregzip.go",
+        "config.go",
+        "cmd.go",
+        "startup.go",
+        "initstores.go",
+        "metrics.go",
+        "initslack.go",
+        "healthcheck.go",
+        "inithttp.go",
+        "initsysapi.go",
+        "listenevents.go",
+        "shutdown.go",
+        "multilistener_test.go",
+        "limitconcurrencybyauthsource.go",
+        "inithttputil_test.go",
+        "defaults.go",
+        "multilistener.go",
+        "app.go",
+        "tlsconfig.go",
+        "pause.go",
+        "getsetconfig.go",
+        "prometheus.go",
+        "inithttputil.go",
+        "context.go",
+        "inittwilio.go",
+        "shutdownsignals_unix.go",
+        "trigger.go",
+        "middleware.go",
+        "initengine.go",
+        "cmdcerts.go",
+        "listenstatus.go",
+        "initgraphql.go",
+        "initauth.go"
+      ]
+    },
+    "backup_20241220_092308 2/app/lifecycle": {
+      "files": [
+        "pauseresumer_test.go",
+        "pauseable.go",
+        "manager_test.go",
+        "pauseresumer.go",
+        "manager.go"
+      ]
+    },
+    "backup_20241220_092308 2/smtpsrv": {
+      "files": [
+        "config.go",
+        "server.go",
+        "session.go",
+        "session_test.go",
+        "server_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/test": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/test/smoke": {
+      "files": [
+        "escalation_test.go",
+        "graphqlupdaterotation_test.go",
+        "rotationmonthly_test.go",
+        "statusupdatesexpire_test.go",
+        "escalationgap_test.go",
+        "genericapi_test.go",
+        "postcyclerules_test.go",
+        "twiliovoiceclose_test.go",
+        "deleteescalationpolicy_test.go",
+        "slackaddtoepstep_test.go",
+        "graphqlcreatescheduledefaultrotation_test.go",
+        "graphqlservicelabels_test.go",
+        "rotationdaily_test.go",
+        "site24x7_test.go",
+        "cmtestdisable_test.go",
+        "dedupnotifications_test.go",
+        "slackusergroup_test.go",
+        "statusupdates_test.go",
+        "prometheusalertmanager_test.go",
+        "twiliovoicefailure_test.go",
+        "slackchannels_test.go",
+        "oncallnotify_test.go",
+        "graphqlcreateschedule_test.go",
+        "messagebundlesms_test.go",
+        "twiliosmsreplylimit_test.go",
+        "twiliotestvoice_test.go",
+        "multistepnotification_test.go",
+        "slackinteraction_test.go",
+        "graphqlschedulefavorites_test.go",
+        "graphqlcalendarsubscriptions_test.go",
+        "twiliovoiceemptymessage_test.go",
+        "graphqlfavoriterotations_test.go",
+        "servicemaintenancealert_test.go",
+        "statusinprogress_test.go",
+        "graphqlusers_test.go",
+        "twiliosmsreplyignore_test.go",
+        "twiliosmsrestrictions_test.go",
+        "escalationnotification_test.go",
+        "multiuser_test.go",
+        "ncdedup_test.go",
+        "messagebundlevoice_test.go",
+        "graphqlservicenotices_test.go",
+        "schedulerule_test.go",
+        "inprogress_test.go",
+        "rotationdeluser_test.go",
+        "twiliosmsreplylast_test.go",
+        "rotationhourly_test.go",
+        "twilioonewaysms_test.go",
+        "graphqladminmessagelogs_test.go",
+        "webhookoncall_test.go",
+        "twiliovoicestop_test.go",
+        "missinguser_test.go",
+        "manyalerts_test.go",
+        "graphqlepnotices_test.go",
+        "graphqloncall_test.go",
+        "deleterotation_test.go",
+        "gqlapikeys_test.go",
+        "oncallnotifytod_test.go",
+        "twiliosmsfromoverride_test.go",
+        "servicemaintenanceescalate_test.go",
+        "manualescalationnotification_test.go",
+        "graphqlerror_test.go",
+        "systemlimits_test.go",
+        "alertautoclose_test.go",
+        "listalerts_test.go",
+        "README.md",
+        "smtpsrvalerts_test.go",
+        "twiliosmsurl_test.go",
+        "mailgunalerts_test.go",
+        "graphqluserfavorites_test.go",
+        "rotationweekly_test.go",
+        "twiliosmsreplycode_test.go",
+        "twiliovoiceack_test.go",
+        "simplenotification_test.go",
+        "twiliotestsmsnotcmowner_test.go",
+        "twilioenablebyvoice_test.go",
+        "graphqlnotifiedalerts_test.go",
+        "rotationdst_test.go",
+        "twiliotestsms_test.go",
+        "statusupdatescancel_test.go",
+        "slackdm2889_test.go",
+        "overrideconflict_test.go",
+        "heartbeat_test.go",
+        "verifymanager_test.go",
+        "grafana_test.go",
+        "graphqloncallassignments_test.go",
+        "upload.sh",
+        "graphqlalert_test.go",
+        "experimentalflags_test.go",
+        "policyreassignment_test.go",
+        "twiliosmsack_test.go",
+        "graphqlalertlogs_test.go",
+        "twiliosmsstopstart_test.go",
+        "twiliosmsfailure_test.go",
+        "graphqlalertsort_test.go",
+        "signal_test.go",
+        "migrations_test.go",
+        "alertlogdelay_test.go",
+        "statusupdateschannel_test.go",
+        "twilioenablebysms_test.go",
+        "genericapidedup_test.go",
+        "rotationwrap_test.go",
+        "alertmetadata_test.go",
+        "emailnotification_test.go",
+        "statusupdatesnolog_test.go",
+        "webhook_test.go",
+        "twiliovoiceverification_test.go",
+        "graphqlmultiplealerts_test.go",
+        "twiliosid_test.go",
+        "slacknotification_test.go",
+        "slackdm_test.go",
+        "calendarsubscription_test.go",
+        "rotationgap_test.go",
+        "actionvalidate_test.go",
+        "tempschedules_test.go",
+        "twiliosmsclose_test.go",
+        "genericapiclose_test.go",
+        "prioritization_test.go",
+        "twiliosmsverification_test.go",
+        "alertlog_test.go",
+        "twiliosmstrailingspace_test.go",
+        "addrules_test.go",
+        "graphqldedup_test.go",
+        "alertcleanup_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/test/smoke/migratetest": {
+      "files": [
+        "tablesnapshot.go",
+        "ruleset.go",
+        "tablesnapshot_test.go",
+        "copyscanner.go",
+        "copyscanner_test.go",
+        "snapshot.go"
+      ]
+    },
+    "backup_20241220_092308 2/test/smoke/harness": {
+      "files": [
+        "backend.go",
+        "graphql.go",
+        "harness.go",
+        "twilioassertionapi.go",
+        "mailpit.go",
+        "twilioassertionsms.go",
+        "datagen.go",
+        "phoneassertions.go",
+        "email_test.go",
+        "mailpit_test.go",
+        "email.go",
+        "slack.go",
+        "twilioassertiondevice.go",
+        "twilioassertionvoicecall.go",
+        "matchers.go",
+        "sql.go"
+      ]
+    },
+    "backup_20241220_092308 2/test/integration": {
+      "files": [
+        "email-cm.spec.ts",
+        "schedules.spec.ts",
+        "escalation-policies.spec.ts",
+        "first-login.spec.ts",
+        "service.spec.ts",
+        "gqlapikeys.spec.ts",
+        "timepickers.spec.ts",
+        "admin.spec.ts",
+        "uik.spec.ts",
+        "switchover.spec.ts",
+        "experimental-flags.spec.ts",
+        "oidc.spec.ts"
+      ]
+    },
+    "backup_20241220_092308 2/test/integration/setup": {
+      "files": [
+        "scan-flags.ts",
+        "goalert-config.json",
+        "global-setup.ts",
+        "global-teardown.ts"
+      ]
+    },
+    "backup_20241220_092308 2/test/integration/lib": {
+      "files": [
+        "login.ts",
+        "select.ts",
+        "label.ts",
+        "integration-key.ts",
+        "flags.ts",
+        "index.ts",
+        "service.ts"
+      ]
+    },
+    "backup_20241220_092308 2/retry": {
+      "files": [
+        "temporary.go",
+        "do.go"
+      ]
+    },
+    "backup_20241220_092308 2/util": {
+      "files": [
+        "rendersize_test.go",
+        "util_test.go",
+        "sqlprepare.go",
+        "util.go",
+        "loadlocation.go",
+        "rendersize.go"
+      ]
+    },
+    "backup_20241220_092308 2/util/sqlutil": {
+      "files": [
+        "error.go",
+        "stringarray.go",
+        "boolarray.go",
+        "intarray.go",
+        "rollback.go",
+        "uuidarray.go",
+        "quoteid.go",
+        "nulluuid.go",
+        "nulltime.go",
+        "listener.go",
+        "splitquery.go",
+        "splitquery_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/util/timeutil": {
+      "files": [
+        "isoduration_test.go",
+        "isoduration.go",
+        "weekday.go",
+        "weekdayfilter.go",
+        "isorinterval_test.go",
+        "clock.go",
+        "isorinterval.go",
+        "weekdayfilter_test.go",
+        "math_test.go",
+        "clock_test.go",
+        "math.go"
+      ]
+    },
+    "backup_20241220_092308 2/util/jsonutil": {
+      "files": [
+        "merge.go",
+        "merge_test.go",
+        "apply_test.go",
+        "apply.go"
+      ]
+    },
+    "backup_20241220_092308 2/util/errutil": {
+      "files": [
+        "maperror.go",
+        "scruberror.go",
+        "httperror.go",
+        "limiterror.go"
+      ]
+    },
+    "backup_20241220_092308 2/util/sqldrv": {
+      "files": [
+        "retrydriver.go",
+        "connector.go",
+        "retryconnector.go"
+      ]
+    },
+    "backup_20241220_092308 2/util/log": {
+      "files": [
+        "log.go",
+        "fields.go",
+        "fields_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/override": {
+      "files": [
+        "store.go",
+        "search.go",
+        "override.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/limit": {
+      "files": [
+        "limits.go",
+        "id.go",
+        "store.go"
+      ]
+    },
+    "backup_20241220_092308 2/sysapiserver": {
+      "files": [
+        "server.go"
+      ]
+    },
+    "backup_20241220_092308 2/config": {
+      "files": [
+        "config.go",
+        "store.go",
+        "shorturl.go",
+        "context.go",
+        "config_test.go",
+        "source.go",
+        "hints.go",
+        "shorturl_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/auth": {
+      "files": [
+        "handler.go",
+        "cookies.go",
+        "routeinfo.go",
+        "faildelay.go",
+        "gettoken.go",
+        "identityprovider.go",
+        "handlerconfig.go"
+      ]
+    },
+    "backup_20241220_092308 2/auth/nonce": {
+      "files": [
+        "store.go"
+      ]
+    },
+    "backup_20241220_092308 2/auth/authtoken": {
+      "files": [
+        "encode.go",
+        "token.go",
+        "type.go",
+        "parse_test.go",
+        "token_test.go",
+        "parse.go"
+      ]
+    },
+    "backup_20241220_092308 2/auth/authtoken/testdata": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/auth/authtoken/testdata/fuzz": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/auth/authtoken/testdata/fuzz/FuzzParse": {
+      "files": [
+        "55252af6e78583606e5e18afbd3c823376f613401644d6fbc0ac13fe08a6a784"
+      ]
+    },
+    "backup_20241220_092308 2/auth/basic": {
+      "files": [
+        "provider.go",
+        "config.go",
+        "db.go",
+        "identityprovider.go",
+        "doc.go"
+      ]
+    },
+    "backup_20241220_092308 2/auth/oidc": {
+      "files": [
+        "config.go",
+        "identityprovider.go"
+      ]
+    },
+    "backup_20241220_092308 2/auth/github": {
+      "files": [
+        "provider.go",
+        "config.go",
+        "identityprovider.go",
+        "doc.go"
+      ]
+    },
+    "backup_20241220_092308 2/auth/authlink": {
+      "files": [
+        "store.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/notification": {
+      "files": [
+        "messagetype.go",
+        "compat.go",
+        "metrics.go",
+        "sender.go",
+        "store.go",
+        "receiver.go",
+        "result_string.go",
+        "destid.go",
+        "namedreceiver.go",
+        "search.go",
+        "result.go",
+        "resultreceiver.go",
+        "manager.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/notification/webhook": {
+      "files": [
+        "nfydest.go",
+        "sender.go"
+      ]
+    },
+    "backup_20241220_092308 2/notification/nfydest": {
+      "files": [
+        "provider.go",
+        "validateaction.go",
+        "typeinfo.go",
+        "registry.go",
+        "search.go",
+        "messagestatuser.go",
+        "validate.go",
+        "messagesender.go"
+      ]
+    },
+    "backup_20241220_092308 2/notification/nfymsg": {
+      "files": [
+        "sendmessage.go",
+        "msgalertbundle.go",
+        "msgverification.go",
+        "message.go",
+        "msgtest.go",
+        "msgscheduleoncall.go",
+        "sendresult.go",
+        "msgsignal.go",
+        "state.go",
+        "status.go",
+        "msgalertstatus.go",
+        "msgalert.go"
+      ]
+    },
+    "backup_20241220_092308 2/notification/slack": {
+      "files": [
+        "usergroup.go",
+        "config.go",
+        "user.go",
+        "channel_test.go",
+        "nfydest.go",
+        "nfydestug.go",
+        "servemessageaction.go",
+        "nfydestdm.go",
+        "cache.go",
+        "channel.go",
+        "oncallnotification.go",
+        "oncallnotification_test.go",
+        "signature_test.go",
+        "withclient.go",
+        "servemessageaction_test.go",
+        "nfydestchannel.go",
+        "usergrouperror.go",
+        "dmsender.go",
+        "usergroupsender.go",
+        "signature.go"
+      ]
+    },
+    "backup_20241220_092308 2/notification/email": {
+      "files": [
+        "nfydest.go",
+        "sender.go",
+        "sendmail.go",
+        "login.go"
+      ]
+    },
+    "backup_20241220_092308 2/notification/twilio": {
+      "files": [
+        "alertsms_test.go",
+        "twiml_test.go",
+        "dbsms.go",
+        "config.go",
+        "exception.go",
+        "nfydestvoice.go",
+        "replylimit.go",
+        "headerhack.go",
+        "message.go",
+        "client.go",
+        "carrier.go",
+        "nfydestsms.go",
+        "twiml.go",
+        "signature_test.go",
+        "alertsms.go",
+        "voice.go",
+        "validation.go",
+        "voice_test.go",
+        "client_test.go",
+        "sms.go",
+        "signature.go",
+        "call.go"
+      ]
+    },
+    "backup_20241220_092308 2/alert": {
+      "files": [
+        "log.go",
+        "metadata.go",
+        "metrics.go",
+        "nfydest.go",
+        "store.go",
+        "logentryfetcher.go",
+        "feedback.go",
+        "search.go",
+        "dedup.go",
+        "summary.go",
+        "alert.go",
+        "state.go",
+        "status.go",
+        "source.go",
+        "queries.sql",
+        "alert_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/alert/alertlog": {
+      "files": [
+        "rawjson.go",
+        "store.go",
+        "type.go",
+        "subject.go",
+        "search.go",
+        "entry.go",
+        "legacylogs.go",
+        "meta.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/alert/alertmetrics": {
+      "files": [
+        "store.go"
+      ]
+    },
+    "backup_20241220_092308 2/web": {
+      "files": [
+        "index.go",
+        "handler.go",
+        "index.html",
+        "nocache.go",
+        "explore.go",
+        "etaghandler.go",
+        "live.js",
+        "explore.html"
+      ]
+    },
+    "backup_20241220_092308 2/web/src": {
+      "files": [
+        "jsconfig.json",
+        "esbuild.config.js",
+        "genschema.go",
+        "modernizr.config.js",
+        "global.d.ts",
+        "schema.d.ts",
+        "expflag.d.ts",
+        "esbuild.cypress.js"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/types": {
+      "files": [
+        "amplify.d.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/cypress": {
+      "files": [
+        "README.md",
+        "tsconfig.json"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/cypress/plugins": {
+      "files": [
+        "index.js"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/cypress/support": {
+      "files": [
+        "page-nav.ts",
+        "page-fab.ts",
+        "alert.ts",
+        "slack.ts",
+        "component.ts",
+        "rotation.ts",
+        "login.ts",
+        "schedule.ts",
+        "sql.ts",
+        "select-by-label.ts",
+        "admin.ts",
+        "page-search.ts",
+        "form.ts",
+        "menu.ts",
+        "e2e.ts",
+        "calendar-subscription.ts",
+        "navigate-to-and-from.ts",
+        "page-action.ts",
+        "profile.ts",
+        "ep.ts",
+        "util.ts",
+        "commands.js",
+        "dialog.ts",
+        "limits.ts",
+        "config.ts",
+        "graphql.ts",
+        "service.ts",
+        "fail-fast.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/cypress/fixtures": {
+      "files": [
+        "users.json",
+        "example.json",
+        "profile.json",
+        "profileAdmin.json"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/cypress/e2e": {
+      "files": [
+        "alerts.cy.ts",
+        "pagination.cy.ts",
+        "schedules.cy.ts",
+        "markdown.cy.ts",
+        "playground.cy.ts",
+        "escalationPolicies.cy.ts",
+        "sidebar.cy.ts",
+        "experimentalFlags.cy.ts",
+        "materialSelect.cy.ts",
+        "timepickers.cy.ts",
+        "users.cy.ts",
+        "services.cy.ts",
+        "favorites.cy.ts",
+        "rotations.cy.ts",
+        "scheduleCalendar.cy.ts",
+        "temporarySchedule.cy.ts",
+        "calendarSubscriptions.cy.ts",
+        "escalationPolicySteps.cy.ts",
+        "auth.cy.ts",
+        "profile.cy.ts",
+        "admin.cy.ts",
+        "wizard.cy.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app": {
+      "files": [
+        "index.tsx",
+        "urql.ts",
+        "apollo.js",
+        "NewVersionCheck.tsx",
+        "tsconfig.json",
+        "reduxStore.ts",
+        "env.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/documentation": {
+      "files": [
+        "Documentation.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/documentation/sections": {
+      "files": [
+        "Webhooks.md",
+        "IntegrationKeys.md"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/storybook": {
+      "files": [
+        "decorators.tsx",
+        "defaultDestTypes.ts",
+        "graphql.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/forms": {
+      "files": [
+        "Form.jsx",
+        "HelperText.tsx",
+        "index.js",
+        "README.md",
+        "context.js",
+        "FormField.jsx",
+        "FormContainer.jsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/loading": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/loading/components": {
+      "files": [
+        "LoadingButton.tsx",
+        "Spinner.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/rotations": {
+      "files": [
+        "RotationForm.tsx",
+        "RotationDetails.tsx",
+        "util.test.ts",
+        "RotationEditDialog.tsx",
+        "RotationFormHandoffTimes.tsx",
+        "RotationDeleteDialog.tsx",
+        "UserForm.tsx",
+        "RotationUserList.tsx",
+        "RotationCreateDialog.tsx",
+        "RotationAddUserDialog.tsx",
+        "RotationList.tsx",
+        "RotationUserDeleteDialog.tsx",
+        "HandoffSummary.tsx",
+        "RotationSetActiveDialog.tsx",
+        "util.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/escalation-policies": {
+      "files": [
+        "PolicyStepDeleteDialog.tsx",
+        "PolicyEditDialog.tsx",
+        "PolicyStepEditDialog.stories.tsx",
+        "PolicyStepsCard.tsx",
+        "PolicyDeleteDialog.tsx",
+        "PolicyStepForm.tsx",
+        "PolicyStepForm.stories.tsx",
+        "PolicyForm.tsx",
+        "PolicyStepsQuery.tsx",
+        "PolicyStepCreateDialog.stories.tsx",
+        "PolicyServicesQuery.tsx",
+        "PolicyServicesCard.tsx",
+        "PolicyStepEditDialog.tsx",
+        "PolicyDetails.tsx",
+        "PolicyCreateDialog.tsx",
+        "stepUtil.tsx",
+        "PolicyList.tsx",
+        "utils.tsx",
+        "PolicyStepCreateDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/util": {
+      "files": [
+        "Diff.tsx",
+        "QuerySetFavoriteButton.tsx",
+        "useWidth.ts",
+        "Time.tsx",
+        "TelTextField.stories.tsx",
+        "timeFormat.ts",
+        "DestinationInputChip.stories.tsx",
+        "SkipToContentLink.tsx",
+        "safeURL.test.ts",
+        "joinURL.ts",
+        "Markdown.stories.tsx",
+        "AppBarSearchContainer.jsx",
+        "luxon-helpers.test.ts",
+        "pagination.ts",
+        "graphql.js",
+        "MountWatcher.js",
+        "query_param.js",
+        "SpeedDial.tsx",
+        "DestinationInputChip.tsx",
+        "debug.ts",
+        "promiseBatch.js",
+        "errtypes.ts",
+        "getServiceFilters.ts",
+        "ClickableText.tsx",
+        "browsers.ts",
+        "graphql.test.js",
+        "FromValueField.tsx",
+        "CountDown.tsx",
+        "DurationField.tsx",
+        "NumberField.tsx",
+        "OtherActions.jsx",
+        "Markdown.jsx",
+        "avatars.tsx",
+        "joinURL.test.ts",
+        "SetFavoriteButton.tsx",
+        "CopyText.tsx",
+        "copyToClipboard.ts",
+        "useExpFlag.ts",
+        "OtherActionsDesktop.jsx",
+        "LuxonLocalizer.js",
+        "ErrorConsumer.ts",
+        "ServiceChip.tsx",
+        "ISOPickers.tsx",
+        "getServiceFilters.test.ts",
+        "errutil.ts",
+        "Markdown.timestampSupport.tsx",
+        "Time.stories.tsx",
+        "AppLink.tsx",
+        "shifts.ts",
+        "luxon-helpers.ts",
+        "shrinkWorkaround.js",
+        "PageActions.jsx",
+        "Transitions.tsx",
+        "useMultiQuery.ts",
+        "safeURL.ts",
+        "OtherActionsMobile.jsx",
+        "DestinationChip.tsx",
+        "timeFormat.test.ts",
+        "TelTextField.tsx",
+        "RequireConfig.tsx",
+        "DestinationAvatar.tsx",
+        "DestinationChip.stories.tsx",
+        "toTitleCase.ts",
+        "Search.jsx",
+        "useUserInfo.ts",
+        "FilterContainer.jsx",
+        "errutil.test.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/util/calendar": {
+      "files": [
+        "CalendarToolbar.tsx",
+        "CalendarEventWrapper.tsx",
+        "Calendar.tsx",
+        "hooks.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/lists": {
+      "files": [
+        "DraggableListItem.tsx",
+        "ListPageControls.tsx",
+        "FlatListItem.tsx",
+        "PageControls.tsx",
+        "ControlledPaginatedList.tsx",
+        "PaginatedList.tsx",
+        "CreateFAB.tsx",
+        "FlatList.tsx",
+        "QueryList.tsx",
+        "ListHeader.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/config": {
+      "files": [
+        "index.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/wizard": {
+      "files": [
+        "WizardRouter.jsx",
+        "util.js",
+        "WizardScheduleForm.jsx",
+        "WizardForm.jsx",
+        "propTypes.js",
+        "utilTestData.js",
+        "util.test.js"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/admin": {
+      "files": [
+        "AdminSMSSend.tsx",
+        "AdminFieldComponents.tsx",
+        "AdminConfig.tsx",
+        "AdminLimits.tsx",
+        "AdminDialog.tsx",
+        "AdminSection.tsx",
+        "AdminToolbox.tsx",
+        "AdminAPIKeys.tsx",
+        "AdminNumberLookup.tsx",
+        "SlackActions.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/admin/admin-alert-counts": {
+      "files": [
+        "AlertCountControls.tsx",
+        "AlertCountTable.tsx",
+        "useAdminAlertCounts.ts",
+        "AdminAlertCounts.tsx",
+        "AlertCountLineGraph.tsx",
+        "useAlertCountCSV.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/admin/admin-api-keys": {
+      "files": [
+        "AdminAPIKeyCreateDialog.tsx",
+        "AdminAPIKeyForm.tsx",
+        "util.test.ts",
+        "AdminAPIKeyExpirationField.tsx",
+        "AdminAPIKeyDrawer.tsx",
+        "AdminAPIKeyEditDialog.tsx",
+        "util.ts",
+        "AdminAPIKeyShowQueryDialog.tsx",
+        "AdminAPIKeyDeleteDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/admin/switchover": {
+      "files": [
+        "AdminSWOWrongMode.tsx",
+        "SWONode.tsx",
+        "AdminSWODBVersionCard.tsx",
+        "AdminSWOConfirmDialog.tsx",
+        "util.ts",
+        "AdminSwitchover.tsx",
+        "AdminSWOStatusCard.tsx",
+        "AdminSWODone.tsx",
+        "AdminSwitchoverGuide.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/admin/admin-message-logs": {
+      "files": [
+        "AdminMessageLogDrawer.tsx",
+        "AdminMessageLogsGraph.tsx",
+        "AdminMessageLogsControls.tsx",
+        "util.ts",
+        "AdminMessageLogsLayout.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/admin/admin-service-metrics": {
+      "files": [
+        "AdminServiceMetrics.tsx",
+        "AdminServiceFilter.tsx",
+        "AdminServiceTargetGraph.tsx",
+        "useServiceMetrics.ts",
+        "useServices.ts",
+        "AdminServiceTable.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/details": {
+      "files": [
+        "Notices.tsx",
+        "CardActions.tsx",
+        "DetailsPage.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/schedules": {
+      "files": [
+        "ScheduleRuleForm.tsx",
+        "ScheduleOverrideDialog.jsx",
+        "ScheduleRuleDeleteDialog.tsx",
+        "util.js",
+        "ScheduleOverrideCreateDialog.tsx",
+        "timeUtil.test.ts",
+        "ScheduleForm.tsx",
+        "ScheduleOverrideForm.tsx",
+        "ScheduleDetails.tsx",
+        "ScheduleOverrideList.jsx",
+        "useScheduleTZ.ts",
+        "ScheduleNewOverrideFAB.tsx",
+        "ScheduleDeleteDialog.tsx",
+        "ScheduleEditDialog.tsx",
+        "ScheduleCreateDialog.tsx",
+        "ScheduleAssignedToList.tsx",
+        "ScheduleCalendarQuery.tsx",
+        "useOverrideNotices.ts",
+        "ScheduleRuleList.tsx",
+        "ScheduleOverrideDeleteDialog.tsx",
+        "ScheduleShiftList.tsx",
+        "ScheduleOverrideEditDialog.tsx",
+        "timeUtil.ts",
+        "ScheduleRuleEditDialog.tsx",
+        "ScheduleList.tsx",
+        "util.test.js",
+        "ScheduleRuleCreateDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/schedules/temp-sched": {
+      "files": [
+        "TempSchedShiftsList.tsx",
+        "shiftsListUtil.test.ts",
+        "TempSchedConfirmation.tsx",
+        "TempSchedDeleteConfirmation.tsx",
+        "shiftsListUtil.tsx",
+        "TempSchedAddNewShift.tsx",
+        "sharedUtils.tsx",
+        "TempSchedDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/schedules/calendar-subscribe": {
+      "files": [
+        "CalendarSubscribeEditDialog.tsx",
+        "CalendarSuccessForm.jsx",
+        "CalendarSubscribeButton.jsx",
+        "CalendarSubscribeCreateDialog.tsx",
+        "CalendarSubscribeDeleteDialog.tsx",
+        "CalendarSubscribeForm.jsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/schedules/on-call-notifications": {
+      "files": [
+        "ScheduleOnCallNotificationsCreateDialog.tsx",
+        "ScheduleOnCallNotificationsEditDialog.tsx",
+        "ScheduleOnCallNotificationsList.tsx",
+        "ScheduleOnCallNotificationsList.stories.tsx",
+        "ScheduleOnCallNotificationsForm.stories.tsx",
+        "ScheduleOnCallNotificationsForm.tsx",
+        "ScheduleOnCallNotificationsEditDialog.stories.tsx",
+        "util.ts",
+        "ScheduleOnCallNotificationsCreateDialog.stories.tsx",
+        "hooks.ts",
+        "ScheduleOnCallNotificationsDeleteDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/alerts": {
+      "files": [
+        "AlertDetailLogs.tsx",
+        "AlertsList.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/alerts/components": {
+      "files": [
+        "AlertFeedbackDialog.tsx",
+        "AlertsListControls.tsx",
+        "AlertFeedback.tsx",
+        "AlertsListFilter.tsx",
+        "AlertDetails.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/alerts/pages": {
+      "files": [
+        "AlertDetailPage.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/alerts/CreateAlertDialog": {
+      "files": [
+        "useCreateAlerts.ts",
+        "CreateAlertDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/alerts/CreateAlertDialog/StepContent": {
+      "files": [
+        "CreateAlertListItem.tsx",
+        "CreateAlertConfirm.tsx",
+        "CreateAlertServiceSelect.tsx",
+        "CreateAlertInfo.tsx",
+        "CreateAlertReview.tsx",
+        "CreateAlertForm.tsx",
+        "CreateAlertServiceListItem.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/error-pages": {
+      "files": [
+        "index.tsx",
+        "Errors.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/styles": {
+      "files": [
+        "index.tsx",
+        "loading.css",
+        "materialStyles.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/styles/base": {
+      "files": [
+        "elements.css"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/public": {
+      "files": [
+        "index.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/public/logos": {
+      "files": [
+        "darkmode_logo.svg",
+        "lightmode_logo_full.svg",
+        "goalert-alt-logo.png",
+        "lightmode_logo.svg"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/public/icons": {
+      "files": [
+        "favicon-192.png",
+        "favicon-64.png",
+        "slack_monochrome_white.svg",
+        "favicon-16.png",
+        "favicon-128.png",
+        "favicon-32.png",
+        "slack_monochrome_black.svg",
+        "slack.svg"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/localdev": {
+      "files": [
+        "LocalDev.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/theme": {
+      "files": [
+        "themeConfig.tsx",
+        "useStatusColors.ts",
+        "ThemePicker.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/links": {
+      "files": [
+        "UserLink.tsx",
+        "ScheduleLink.tsx",
+        "index.ts",
+        "SlackChannelLink.tsx",
+        "RotationLink.tsx",
+        "ServiceLink.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/users": {
+      "files": [
+        "UserNotificationRuleForm.tsx",
+        "UserContactMethodEditDialog.tsx",
+        "UserContactMethodList.stories.tsx",
+        "util.js",
+        "UserCreateDialog.tsx",
+        "UserContactMethodList.tsx",
+        "UserContactMethodCreateDialog.stories.tsx",
+        "UserContactMethodVerificationForm.tsx",
+        "UserNotificationRuleDeleteDialog.tsx",
+        "UserPhoneNumberFilterContainer.tsx",
+        "UserEditDialog.tsx",
+        "UserContactMethodCreateDialog.tsx",
+        "UserOnCallAssignmentList.tsx",
+        "UserEditForm.tsx",
+        "UserSessionList.tsx",
+        "UserContactMethodEditDialog.stories.tsx",
+        "UserContactMethodForm.tsx",
+        "UserContactMethodDeleteDialog.tsx",
+        "UserShiftsCalendar.tsx",
+        "SendTestDialog.tsx",
+        "UserNotificationRuleList.tsx",
+        "UserDetails.tsx",
+        "UserContactMethodForm.stories.tsx",
+        "UserNotificationRuleListDest.stories.tsx",
+        "UserNotificationRuleCreateDialog.tsx",
+        "UserList.tsx",
+        "UserContactMethodVerificationDialog.tsx",
+        "UserCalendarSubscriptionList.tsx",
+        "UserContactMethodSelect.tsx",
+        "util.test.js",
+        "UserDeleteDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/icons": {
+      "files": [
+        "index.js"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/icons/components": {
+      "files": [
+        "Icons.jsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/actions": {
+      "files": [
+        "auth.js",
+        "index.js",
+        "main.js",
+        "hooks.test.ts",
+        "hooks.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/dialogs": {
+      "files": [
+        "FormDialog.jsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/dialogs/components": {
+      "files": [
+        "DialogContentError.jsx",
+        "DialogTitleWrapper.jsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/selection": {
+      "files": [
+        "RotationSelect.js",
+        "DestinationField.stories.tsx",
+        "LabelKeySelect.tsx",
+        "QuerySelect.jsx",
+        "UserSelect.js",
+        "LabelValueSelect.tsx",
+        "IntegrationKeySelect.tsx",
+        "ScheduleSelect.js",
+        "DestinationSearchSelect.tsx",
+        "TimeZoneSelect.js",
+        "DestinationInputDirect.tsx",
+        "index.js",
+        "SlackChannelSelect.js",
+        "SlackUserGroupSelect.tsx",
+        "EscalationPolicySelect.tsx",
+        "ServiceSelect.js",
+        "DynamicActionForm.stories.tsx",
+        "MaterialSelect.tsx",
+        "DestinationSearchSelect.stories.tsx",
+        "DestinationField.tsx",
+        "DynamicActionForm.tsx",
+        "DestinationInputDirect.stories.tsx",
+        "DisableableMenuItem.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/worker": {
+      "files": [
+        "methods.ts",
+        "index.ts",
+        "worker.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/main": {
+      "files": [
+        "NavBar.tsx",
+        "App.tsx",
+        "NavBarLink.tsx",
+        "ErrorBoundary.jsx",
+        "WideSideBar.tsx",
+        "RequireAuth.tsx",
+        "SnackbarNotification.tsx",
+        "AppRoutes.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/main/components": {
+      "files": [
+        "NewUserSetup.tsx",
+        "Login.tsx",
+        "ToolbarAction.tsx",
+        "ToolbarPageTitle.tsx",
+        "BreadCrumb.tsx",
+        "UserSettingsPopover.tsx",
+        "AuthLink.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/reducers": {
+      "files": [
+        "auth.js",
+        "index.js",
+        "main.js"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/services": {
+      "files": [
+        "ServiceLabelEditDialog.tsx",
+        "IntegrationKeyDeleteDialog.tsx",
+        "ServiceAlerts.tsx",
+        "ServiceForm.tsx",
+        "ServiceLabelList.tsx",
+        "ServiceLabelForm.jsx",
+        "ServiceFilterContainer.tsx",
+        "ServiceOnCallList.tsx",
+        "ServiceLabelDeleteDialog.tsx",
+        "HeartbeatMonitorForm.tsx",
+        "HeartbeatMonitorEditDialog.tsx",
+        "ServiceEditDialog.tsx",
+        "HeartbeatMonitorDeleteDialog.tsx",
+        "ServiceDeleteDialog.tsx",
+        "IntegrationKeyList.tsx",
+        "HeartbeatMonitorStatus.tsx",
+        "ServiceCreateDialog.tsx",
+        "HeartbeatMonitorCreateDialog.tsx",
+        "ServiceDetails.tsx",
+        "ServiceList.tsx",
+        "ServiceMaintenanceDialog.tsx",
+        "ServiceNotices.tsx",
+        "IntegrationKeyForm.tsx",
+        "ServiceLabelCreateDialog.tsx",
+        "HeartbeatMonitorList.tsx",
+        "IntegrationKeyCreateDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/services/AlertMetrics": {
+      "files": [
+        "AlertMetrics.tsx",
+        "AlertMetricsFilter.tsx",
+        "useAlerts.ts",
+        "AlertCountGraph.tsx",
+        "AlertAveragesGraph.tsx",
+        "AlertMetricsTable.tsx",
+        "useAlertCSV.ts",
+        "useAlertMetrics.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/services/UniversalKey": {
+      "files": [
+        "UniversalKeyActionsList.tsx",
+        "UniversalKeyDefaultActions.tsx",
+        "UniversalKeyRuleRemoveDialog.tsx",
+        "UniversalKeyRuleConfig.tsx",
+        "PromoteTokenDialog.tsx",
+        "DefaultActionEditDialog.tsx",
+        "UniversalKeyPage.tsx",
+        "UniversalKeyActionsForm.tsx",
+        "UniversalKeyRuleForm.tsx",
+        "UniversalKeyRuleDialog.tsx",
+        "GenTokenDialog.tsx",
+        "UniversalKeysActionsForm.stories.tsx",
+        "utils.tsx",
+        "DeleteSecondaryTokenDialog.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/app/selectors": {
+      "files": [
+        "index.ts",
+        "auth.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/explore": {
+      "files": [
+        "tsconfig.json",
+        "explore.tsx"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/hooks": {
+      "files": [
+        "useTasks.ts"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/build": {
+      "files": [
+        "keep"
+      ]
+    },
+    "backup_20241220_092308 2/web/src/codemods": {
+      "files": [
+        "README.md"
+      ]
+    },
+    "backup_20241220_092308 2/notificationchannel": {
+      "files": [
+        "store.go",
+        "channel.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/ctxlock": {
+      "files": [
+        "config.go",
+        "unlock.go",
+        "idlocker.go",
+        "lock.go",
+        "idlocker_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/goalert-implementation": {
+      "files": [
+        "README.md"
+      ]
+    },
+    "backup_20241220_092308 2/goalert-implementation/docs": {
+      "files": [
+        "complex-features.md",
+        "getting-started.md",
+        "development-setup.md",
+        "switchover.md"
+      ]
+    },
+    "backup_20241220_092308 2/goalert-implementation/docs/docs": {
+      "files": [
+        "ongoing_cot.md",
+        "GoAlert Continuing Chain of Thought (CoT.ts",
+        "implementation_assistant.py"
+      ]
+    },
+    "backup_20241220_092308 2/tests": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/tests/tasks": {
+      "files": [
+        "taskr.test.ts"
+      ]
+    },
+    "backup_20241220_092308 2/tests/auth": {
+      "files": [
+        "auth.test.ts"
+      ]
+    },
+    "backup_20241220_092308 2/tests/integration": {
+      "files": [
+        "aws.test.ts",
+        "setup.ts"
+      ]
+    },
+    "backup_20241220_092308 2/lock": {
+      "files": [
+        "global.go"
+      ]
+    },
+    "backup_20241220_092308 2/label": {
+      "files": [
+        "searchvalues.go",
+        "store.go",
+        "label.go",
+        "queries.sql",
+        "searchkeys.go"
+      ]
+    },
+    "backup_20241220_092308 2/grafana": {
+      "files": [
+        "grafana.go",
+        "README.md"
+      ]
+    },
+    "backup_20241220_092308 2/assignment": {
+      "files": [
+        "targettype.go",
+        "targettype_string.go",
+        "target.go",
+        "doc.go"
+      ]
+    },
+    "backup_20241220_092308 2/gadb": {
+      "files": [
+        "models.go",
+        "db.go",
+        "uikconfig.go",
+        "providermessageid.go",
+        "queries.sql.go",
+        "dest.go"
+      ]
+    },
+    "backup_20241220_092308 2/user": {
+      "files": [
+        "user.go",
+        "user_test.go",
+        "nfydest.go",
+        "store.go",
+        "cache.go",
+        "search.go",
+        "authsubject.go"
+      ]
+    },
+    "backup_20241220_092308 2/user/notificationrule": {
+      "files": [
+        "store.go",
+        "notificationrule.go",
+        "notificationrule_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/user/favorite": {
+      "files": [
+        "store.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/user/contactmethod": {
+      "files": [
+        "metadata.go",
+        "store.go",
+        "contactmethod.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/docs": {
+      "files": [
+        "complex-features.md",
+        "universal-integration-keys.md",
+        "getting-started.md",
+        "development-setup.md",
+        "switchover.md"
+      ]
+    },
+    "backup_20241220_092308 2/docs/docs": {
+      "files": [
+        "project_structure.md",
+        "TaskR.tsx",
+        "chain_of_thought.md",
+        "project_documentation.md",
+        "ongoing_cot.md",
+        "GoAlert Continuing Chain of Thought (CoT.ts",
+        "implementation_assistant.py"
+      ]
+    },
+    "backup_20241220_092308 2/docs/decisions": {
+      "files": [
+        "002-migration-strategy.md",
+        "001-typescript-config.md"
+      ]
+    },
+    "backup_20241220_092308 2/docs/hooks": {
+      "files": [
+        "useTasks.ts"
+      ]
+    },
+    "backup_20241220_092308 2/docs/adrs": {
+      "files": [
+        "template.md",
+        "000002-implement-sqlc-for-database-queries.md",
+        "000004-adopt-urql-for-graphql-over-apollo.md",
+        "000003-integrate-playwright-testing.md",
+        "000001-migrate-to-typescript.md",
+        "000005-api-key-architecture.md"
+      ]
+    },
+    "backup_20241220_092308 2/notice": {
+      "files": [
+        "store.go",
+        "type_string.go",
+        "notice.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/search": {
+      "files": [
+        "render.go",
+        "config.go",
+        "escape.go",
+        "cursor.go"
+      ]
+    },
+    "backup_20241220_092308 2/genericapi": {
+      "files": [
+        "handler.go",
+        "config.go"
+      ]
+    },
+    "backup_20241220_092308 2/heartbeat": {
+      "files": [
+        "monitor.go",
+        "store.go",
+        "state.go"
+      ]
+    },
+    "backup_20241220_092308 2/apikey": {
+      "files": [
+        "lastused.go",
+        "store.go",
+        "lastusedcache.go",
+        "policy.go",
+        "policyinfo.go",
+        "polcache.go",
+        "context.go",
+        "policyinfo_test.go",
+        "middleware.go",
+        "jwt.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/migrate": {
+      "files": [
+        "schema.sql",
+        "migrate.go"
+      ]
+    },
+    "backup_20241220_092308 2/migrate/cmd": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/migrate/cmd/goalert-migrate": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/migrate/migrations": {
+      "files": [
+        "20190312153204-slack-api-change.sql",
+        "20190715130233-verification-codes-update.sql",
+        "20180110155110-alert-unique-dedup-service.sql",
+        "20240702104907-signals-limit-key.sql",
+        "20171024114842-adjust-notification-create-at-check.sql",
+        "20170612101232-escalation-tweaks.sql",
+        "20171221150955-integration-key-limit.sql",
+        "20170706102439-esc-zero-index.sql",
+        "20170623151348-on-call-alert-distinct.sql",
+        "20180517210000-auth2.sql",
+        "20171030130758-ev3-drop-views.sql",
+        "20180720121833-create-ep-state-on-alert.sql",
+        "20220307103153-add-metrics-proctype.sql",
+        "20240708153641-nc-duplicate-table.sql",
+        "20240628135304-dest-enum.sql",
+        "20191021145358-message-bundles.sql",
+        "20180831132707-alerts-service-index.sql",
+        "20170607103917-throttle.sql",
+        "20180126162144-heartbeat-auth-log-data.sql",
+        "20190807210857-set-default-system-limits.sql",
+        "20171030130800-ev3-notification-policy.sql",
+        "20180207113632-ep-step-number-consistency.sql",
+        "20180803110851-drop-twilio-egress-sms-status.sql",
+        "20180330110116-move-ep-triggers.sql",
+        "20230227124957-cm-status-updates.sql",
+        "20171221140906-contact-method-limit.sql",
+        "20181008111401-twilio-sms-short-reply.sql",
+        "20180201180221-add-verification-code.sql",
+        "20180118112019-restrict-cm-to-same-user.sql",
+        "20210806074405-outgoing-source-value.sql",
+        "20170710155447-fix-escalations.sql",
+        "20191021145356-message-bundle-versions.sql",
+        "20220317153438-alert-metrics-add-closed-at.sql",
+        "20180320153326-npcycle-indexes.sql",
+        "20171221134500-limit-configuration.sql",
+        "20180315113303-strict-rotation-state.sql",
+        "20180417142940-region-processing.sql",
+        "20220622113607-update-alert-metrics-version.sql",
+        "20190201142137-drop-sub-constraint.sql",
+        "20170630095448-integration-to-integration-keys.sql",
+        "20180803091005-drop-user-contact-method-locks.sql",
+        "20190702161722-add-schedule-favorites.sql",
+        "20180104124640-ncycle-tick.sql",
+        "20180313152132-schedule-on-call-users.sql",
+        "20181004032148-labels-switchover-trigger.sql",
+        "20180831132927-alert-logs-index.sql",
+        "20180803090405-drop-notification-logs.sql",
+        "20180517230000-auth-nonce.sql",
+        "20170717152954-ids-to-uuids.sql",
+        "20180117115123-alert-status-updates.sql",
+        "20220329170727-add-daily-alert-metrics.sql",
+        "20170725105059-rotations-shift-length-check.sql",
+        "20190201104727-alert-logs-channel.sql",
+        "20230911153243-add-monthly-rotation.sql",
+        "20180816164203-drop-end-time-check.sql",
+        "20180720122633-update-existing-escalations.sql",
+        "20170726143800-no-oncall-for-future-rotations.sql",
+        "20180816095055-add-row-ids.sql",
+        "20170808110638-user-email-nullable-allowed.sql",
+        "20210420100139-sched-module-v3.sql",
+        "20230227095649-drop-user-cm-name-constraint.sql",
+        "20180104125444-twilio-sms-multiple-callbacks.sql",
+        "20210811141518-search-indexes.sql",
+        "20221207150447-webhook-notification-channel-type.sql",
+        "20171030130811-ev3-drop-ep-snapshot-trigger.sql",
+        "20180403113645-fix-rot-part-delete.sql",
+        "20201123172337-alert-cleanup-index.sql",
+        "20180104114110-disable-process-alerts-queue.sql",
+        "20200702112635-contact-method-metadata.sql",
+        "20210811110849-valid-status-updates-indexes.sql",
+        "20180831143308-outgoing-messages-index.sql",
+        "20170503144542-remove-carrier.sql",
+        "20180806102708-drop-auth-github-users.sql",
+        "20180720121533-drop-dedup-trigger.sql",
+        "20240709134232-incr-message-vers.sql",
+        "20180517100033-clear-cycles-on-policy-change.sql",
+        "20171221151358-unacked-alert-limit.sql",
+        "20171027145352-dont-notify-disabled-cms.sql",
+        "20180720122333-fix-schedule-index.sql",
+        "20170717151241-remove-old-esc-columns.sql",
+        "20170605131920-twilio-sms.sql",
+        "20171201104433-add-alert-log-types.sql",
+        "20230512111353-slack-ug.sql",
+        "20240415143348-ext-int-keys.sql",
+        "20180228103159-schedule-overrides-limit-key.sql",
+        "20171221162356-case-insenstive-name-constraints.sql",
+        "20180207124220-rotation-participant-position-consistency.sql",
+        "20200204152220-calendar-subscriptions-per-user.sql",
+        "20170515162554-user-notifications.sql",
+        "20170620104459-contact-constraints.sql",
+        "20180720121633-drop-description-col.sql",
+        "20171030130802-ev3-rotations.sql",
+        "20180803090805-drop-sent-notifications.sql",
+        "20220808103727-switchover-mk2.sql",
+        "20180806102513-drop-twilio-voice-callbacks.sql",
+        "20180130123755-heartbeat-limit-key.sql",
+        "20170802114735-alert_logs_enum_update.sql",
+        "20170713113728-escalation-schema-hardening.sql",
+        "20171030130806-ev3-add-rotation-ep-action.sql",
+        "20240514135227-uik-tokens.sql",
+        "20170619164449-bobby-tables.sql",
+        "20180822153707-defer-rotation-state.sql",
+        "20170707153545-limit-cm-per-interval.sql",
+        "20191016162114-om-status-index.sql",
+        "20180216104945-alerts-split-summary-details.sql",
+        "20230227095549-slack-cm-subjects.sql",
+        "20170515120511-escalation-policy-actions.sql",
+        "20170629104138-escalation-policy-tweak.sql",
+        "20200413113132-add-no-notification-alert-log.sql",
+        "20170619123628-add-constraints.sql",
+        "20171213141802-add-alert-source-email.sql",
+        "20180803090505-drop-process-alerts.sql",
+        "20180109114058-email-integration-key.sql",
+        "20170503154907-delay-minutes.sql",
+        "20180803090205-drop-alert-assignments.sql",
+        "20240628163614-nc-dest.sql",
+        "20180806092512-incr-message-version.sql",
+        "20210609113508-add-escalation-policies-favorite.sql",
+        "20240702105107-pending-signals.sql",
+        "20171030130804-ev3-assign-schedule-rotations.sql",
+        "20180130123852-heartbeat-limit.sql",
+        "20240726113949-fix-dest-update-trg.sql",
+        "20240709094903-underscore-fields-nr.sql",
+        "20180803090905-drop-throttle.sql",
+        "20190725124750-cascade-heartbeat-delete.sql",
+        "20190613114217-remove-switchover-triggers.sql",
+        "20191216145826-calendar-subscriptions.sql",
+        "20170712094434-notification-policy-updates.sql",
+        "20170509154250-alerts.sql",
+        "20170621141923-notification-query-fixes.sql",
+        "20170802160314-add-timezones.sql",
+        "20210813131213-sched-query-index.sql",
+        "20171030130810-ev3-notification-logs.sql",
+        "20230320145323-add-pending-to-contact-methods.sql",
+        "20180720121733-fix-svc-ep-state-trigger.sql",
+        "20190117130422-notif-chan-engine-versions.sql",
+        "20170726155056-twilio-sms-errors.sql",
+        "20180103113251-schedule-target-limit.sql",
+        "20171030130813-ev3-throttle-locks.sql",
+        "20170811110036-add-generic-integration-key.sql",
+        "20180720122533-drop-ep-state-np-trig.sql",
+        "20180821150330-deferable-status-cm.sql",
+        "20190701111645-add-rotation-favorite.sql",
+        "20170502172843-user-settings.sql",
+        "20180803090705-drop-process-schedules.sql",
+        "20231017112713-api-soft-delete-name.sql",
+        "20170503144821-remove-email-verified.sql",
+        "20240709134305-signal-module.sql",
+        "20181107133329-notification-channels.sql",
+        "20180907111203-schedule-rule-endtime-fix.sql",
+        "20180822153914-defer-ep-state.sql",
+        "20170714155817-notification-rule-tweak.sql",
+        "20180126162030-heartbeat-auth-log-subject-type.sql",
+        "20180918102226-add-service-label.sql",
+        "20180710110438-engine-processing-versions.sql",
+        "20240118120349-status-update-expiration.sql",
+        "20170726141849-handle-missing-users.sql",
+        "20171030130812-ev3-rotation-state.sql",
+        "20170605131942-twilio-voice.sql",
+        "20170623155346-delete-keys-with-service.sql",
+        "20210323155516-temp-schedules.sql",
+        "20180720122233-drop-unique-cycles-constraint.sql",
+        "20170613122551-auth-token.sql",
+        "20181018131939-fix-rotation-deletions.sql",
+        "20170725105905-fix-shift-calculation.sql",
+        "20201209112322-alert-logs-drop-fkeys.sql",
+        "20240503155449-uik-config.sql",
+        "20210609141058-outgoing-messages-schedule-id.sql",
+        "20171030130801-ev3-escalation-policy-state.sql",
+        "20210623104011-disable-user-last-alert-log.sql",
+        "20210623104111-alert-status-subscriptions.sql",
+        "20200204140537-calendar-subscriptions-per-user-limit-key.sql",
+        "20180521124533-UserFavorites.sql",
+        "20180803090605-drop-process-rotations.sql",
+        "20170717151358-remove-old-tables.sql",
+        "20230616110941-add-alerts-feedback.sql",
+        "20180117110856-status-update-message-type.sql",
+        "20200716212352-prometheus-alertmanager-integration.sql",
+        "20180228111204-schedule-overrides.sql",
+        "20170426134008-init.sql",
+        "20170621170744-add-country-code.sql",
+        "20210309144821-rotation-module-update.sql",
+        "20170818135106-add-gravatar-col-to-user.sql",
+        "20180104123517-outgoing-messages.sql",
+        "20170726155351-twilio-voice-errors.sql",
+        "20180803090305-drop-alert-escalation-policy-snapshots.sql",
+        "20171221150825-schedule-rule-limit.sql",
+        "20171221142234-ep-step-limit.sql",
+        "20230831141312-alert-feedback-id.sql",
+        "20180728150427-add-provider-msg-id.sql",
+        "20210817132557-add-user-favorite.sql",
+        "20200805132936-test-verify-index.sql",
+        "20181004145558-fix-deleting-participants.sql",
+        "20180806102923-drop-auth-token-codes.sql",
+        "20210601113520-override-lock.sql",
+        "20200922140909-session-last-access-time.sql",
+        "20180720121433-increment-module-versions.sql",
+        "20180803110859-drop-twilio-egress-voice-status.sql",
+        "20190313125552-slack-user-link.sql",
+        "20220224125018-schedule-data-id.sql",
+        "20240212125328-alert-metadata.sql",
+        "20170428154209-users-table.sql",
+        "20171221142553-ep-step-action-limit.sql",
+        "20220307103253-add-alert-metrics.sql",
+        "20171221150317-rotation-participant-limit.sql",
+        "20230227095449-slack-cm-compat.sql",
+        "20170707135355-esc-cascade-steps-actions.sql",
+        "20170530135027-schedule-rotation.sql",
+        "20180806102620-drop-user-notification-cycles.sql",
+        "20210719132553-webhook-user-contact-method-type.sql",
+        "20181107155229-om-notification-channel.sql",
+        "20170825124926-escalation-policy-step-reorder.sql",
+        "20180720122433-trig-alert-on-force-escalation.sql",
+        "20240628136011-cm-dest.sql",
+        "20230913170424-graphql-api-key.sql",
+        "20171205125227-twilio-egress-sms-tracking.sql",
+        "20180720121933-store-next-escalation-time.sql",
+        "20180326154252-move-rotation-triggers.sql",
+        "20171220113439-add-alert-dedup-keys.sql",
+        "20171221138101-notification-rule-limit.sql",
+        "20180321145054-strict-ep-state.sql",
+        "20210609140958-message-type-schedule-on-call.sql",
+        "20170817102712-atomic-escalation-policies.sql",
+        "20180321143255-ep-step-count.sql",
+        "20171030150519-ev3-remove-status-trigger.sql",
+        "20180816095155-change-log.sql",
+        "20181107155035-nc-id-to-ep-action.sql",
+        "20171201104359-structured-alert-logs.sql",
+        "20190129110250-add-cleanup-module.sql",
+        "20190613120345-drop-switchover-resources.sql",
+        "20240125091537-hb-addl-details.sql",
+        "20220705124007-add-service-maintenance-expires-at.sql",
+        "20171211101108-twilio-egress-voice-tracking.sql",
+        "20171030130759-ev3-schedule-rules.sql",
+        "20200908095243-session-access-time.sql",
+        "20240502114803-universal-integration-key.sql",
+        "20180126162093-heartbeats.sql",
+        "20190815160200-site24x7-integration.sql",
+        "20180517220000-keyring.sql",
+        "20180831132743-np-cycle-alert-index.sql",
+        "20190404105850-nc-no-meta.sql",
+        "20180720122133-clear-next-esc-on-ack.sql",
+        "20170717151336-remove-old-service-columns.sql",
+        "20170518142432-alert-assignments.sql",
+        "20180720122033-ep-step-on-call.sql",
+        "20180517135700-policy-reassignment-trigger-fix.sql",
+        "20240709134405-signal-message-type.sql",
+        "20240628135216-dedup-notif-channels.sql",
+        "20220621113729-remove-daily-alert-metrics-table.sql",
+        "20170724162219-fix-alert-escalations.sql",
+        "20240709094902-underscore-fields-cm.sql",
+        "20180831132457-user-last-alert-log-indexes.sql",
+        "20190517144224-trigger-config-sync.sql",
+        "20171126093536-schedule-rule-processing.sql",
+        "20190225112925-config-table.sql",
+        "20221206110556-slack-dm-cm-type.sql",
+        "20191021145357-message-bundle-types.sql",
+        "20220802104000-auth-link-requests.sql",
+        "20180104122450-wait-alert-queue-finished.sql",
+        "20180816094955-switchover-state.sql"
+      ]
+    },
+    "backup_20241220_092308 2/integrationkey": {
+      "files": [
+        "config.go",
+        "store.go",
+        "type.go",
+        "integrationkey.go",
+        "search.go",
+        "integrationkey_test.go",
+        "uik.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/integrationkey/uik": {
+      "files": [
+        "handler.go",
+        "compilerule_test.go",
+        "compilerule.go"
+      ]
+    },
+    "backup_20241220_092308 2/version": {
+      "files": [
+        "version.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools": {
+      "files": [
+        "tools.go",
+        "devtools.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/fetchcounts": {
+      "files": [
+        "run.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/mockslack": {
+      "files": [
+        "authrevoke.go",
+        "chatpostmessage_test.go",
+        "server.go",
+        "user.go",
+        "conversationsinfo.go",
+        "usergroupsusersupdate.go",
+        "conversationslist_test.go",
+        "groupscreate.go",
+        "channelscreate.go",
+        "usergroupslist.go",
+        "actions.go",
+        "teaminfo.go",
+        "login.html",
+        "util.go",
+        "oauthaccess.go",
+        "permissions.go",
+        "http.go",
+        "api.go",
+        "validate.go",
+        "conversationslist.go",
+        "state.go",
+        "authtest.go",
+        "chatpostmessage.go",
+        "login.go",
+        "usersinfo.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/mockslack/cmd": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/devtools/mockslack/cmd/mockslack": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/genmake": {
+      "files": [
+        "template.mk",
+        "run.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/configtsidgen": {
+      "files": [
+        "run.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/pgmocktime": {
+      "files": [
+        "mocker.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/pgmocktime/cmd": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/devtools/pgmocktime/cmd/pgmocktime": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ci": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ci/tasks": {
+      "files": [
+        "test-integration.yml",
+        "test-smoketest.yml",
+        "build-image.yml",
+        "build-binaries.yml",
+        "build-all.yml"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ci/tasks/scripts": {
+      "files": [
+        "build-binaries.sh",
+        "build-all.sh",
+        "test-smoketest.sh",
+        "test-integration.sh",
+        "codecheck.sh"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ci/dockerfiles": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ci/dockerfiles/demo": {
+      "files": [
+        "Dockerfile.prebuilt",
+        "start.sh"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ci/dockerfiles/build-env": {
+      "files": [
+        "stop_postgres.sh",
+        "Dockerfile",
+        "start_postgres.sh"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ci/dockerfiles/cypress-env": {
+      "files": [
+        "stop_postgres.sh",
+        "Dockerfile",
+        "start_postgres.sh"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ci/dockerfiles/goalert": {
+      "files": [
+        "Dockerfile",
+        "Dockerfile.prebuilt"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/resetdb": {
+      "files": [
+        "config.go",
+        "idname.go",
+        "uniqintgen.go",
+        "datagen.go",
+        "uniqgen.go",
+        "deptree.go",
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/psql-lite": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/procwrap": {
+      "files": [
+        "signals.go",
+        "signals_unix.go",
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/pgdump-lite": {
+      "files": [
+        "sqlc.yaml",
+        "dumpdata.go",
+        "dumpschema.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/pgdump-lite/cmd": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/devtools/pgdump-lite/cmd/pgdump-lite": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/pgdump-lite/pgd": {
+      "files": [
+        "models.go",
+        "db.go",
+        "queries.sql.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/waitfor": {
+      "files": [
+        "schematcp.go",
+        "schemahttp.go",
+        "schemapostgres.go",
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/gettool": {
+      "files": [
+        "getprotoc.go",
+        "getgolangcilint.go",
+        "run.go",
+        "getprometheus.go",
+        "getsqlc.go",
+        "getmailpit.go",
+        "extractfromtar.go",
+        "extractfromzip.go",
+        "fetchfile.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/mockoidc": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/limitapigen": {
+      "files": [
+        "run.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/configparams": {
+      "files": [
+        "run.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/scripts": {
+      "files": [
+        "github-set-pr-label.sh",
+        "validate-migrations.sh",
+        "git-diff-label-calc.sh"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/scripts/db-url": {
+      "files": [
+        "main.go",
+        "main_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/prometheus": {
+      "files": [
+        "prometheus-swo.yml",
+        "prometheus.yml"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/simpleproxy": {
+      "files": [
+        "roundrobin.go",
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/sendit": {
+      "files": [
+        "token.go",
+        "flushwriter.go",
+        "server.go",
+        "stream.go",
+        "session.go",
+        "client.go",
+        "readme_test.go",
+        "README.md"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/sendit/cmd": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/devtools/sendit/cmd/sendit-token": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/sendit/cmd/sendit-server": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/sendit/cmd/sendit": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/runproc": {
+      "files": [
+        "processrunner.go",
+        "runner.go",
+        "signals.go",
+        "task.go",
+        "processwatcher.go",
+        "process.go",
+        "prefixer.go",
+        "signals_unix.go",
+        "filewatcher.go",
+        "main.go",
+        "parse.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/ordermigrations": {
+      "files": [
+        "run.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/mocktwilio": {
+      "files": [
+        "voicecall.go",
+        "server.go",
+        "lookup.go",
+        "sms.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/mocktwilio/twiml": {
+      "files": [
+        "nullint.go",
+        "anyverb.go",
+        "gather.go",
+        "verbs_test.go",
+        "response.go",
+        "response_test.go",
+        "iterator_test.go",
+        "doc.go",
+        "iterator.go",
+        "gather_test.go",
+        "nullint_test.go",
+        "verbs.go"
+      ]
+    },
+    "backup_20241220_092308 2/devtools/gqltsgen": {
+      "files": [
+        "run.go"
+      ]
+    },
+    "backup_20241220_092308 2/calsub": {
+      "files": [
+        "subscription.go",
+        "store.go",
+        "renderdata.go",
+        "renderical_test.go",
+        "renderical.go",
+        "http.go",
+        "queries.sql",
+        "subscriptionconfig.go"
+      ]
+    },
+    "backup_20241220_092308 2/keyring": {
+      "files": [
+        "store_test.go",
+        "store.go",
+        "keys.go"
+      ]
+    },
+    "backup_20241220_092308 2/mailgun": {
+      "files": [
+        "mailgun.go"
+      ]
+    },
+    "backup_20241220_092308 2/escalation": {
+      "files": [
+        "policy_test.go",
+        "store.go",
+        "policy.go",
+        "search.go",
+        "step.go",
+        "queries.sql",
+        "desttargets.go",
+        "step_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master": {
+      "files": [
+        "mkdocs.yml",
+        "LICENSE",
+        "README.md",
+        "package.json",
+        "commitlint.config.js",
+        "SECURITY.md"
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/spec": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/spec/v1": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/spec/next": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/docs": {
+      "files": [
+        "index.md",
+        "adr.md"
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/docs/adr": {
+      "files": [
+        "template.md",
+        "redux_to_react_query.md"
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/packages": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/packages/core": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/packages/frontend": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/packages/server": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/packages/cli": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/hospitalrun-master/packages/components": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/service": {
+      "files": [
+        "service.go",
+        "store.go",
+        "service_test.go",
+        "search.go"
+      ]
+    },
+    "backup_20241220_092308 2/expflag": {
+      "files": [
+        "flagset.go",
+        "flags.go",
+        "context.go"
+      ]
+    },
+    "backup_20241220_092308 2/expflag/cmd": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/expflag/cmd/tsgen": {
+      "files": [
+        "main.go"
+      ]
+    },
+    "backup_20241220_092308 2/permission": {
+      "files": [
+        "permission.go",
+        "error.go",
+        "store.go",
+        "role.go",
+        "context_test.go",
+        "contextkey.go",
+        "sourcetype_string.go",
+        "context.go",
+        "checker.go",
+        "permission_test.go",
+        "source.go"
+      ]
+    },
+    "backup_20241220_092308 2/oncall": {
+      "files": [
+        "timeiterator.go",
+        "timeiterator_test.go",
+        "store.go",
+        "rulescalculator.go",
+        "overridecalculator.go",
+        "activecalculator_test.go",
+        "singlerulecalculator.go",
+        "singlerulecalculator_test.go",
+        "usercalculator.go",
+        "state_test.go",
+        "activecalculator.go",
+        "temporaryschedulecalculator.go",
+        "state.go",
+        "usercalculator_test.go",
+        "overridecalculator_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/swo": {
+      "files": [
+        "withfunc.go",
+        "withfunc_test.go",
+        "conninfo_test.go",
+        "README.md",
+        "connector.go",
+        "executor.go",
+        "status.go",
+        "manager.go",
+        "conninfo.go"
+      ]
+    },
+    "backup_20241220_092308 2/swo/swogrp": {
+      "files": [
+        "config.go",
+        "clusterstate.go",
+        "README.md",
+        "starttask.go",
+        "status.go",
+        "node.go",
+        "taskmgr.go"
+      ]
+    },
+    "backup_20241220_092308 2/swo/swodb": {
+      "files": [
+        "models.go",
+        "db.go",
+        "queries.sql.go"
+      ]
+    },
+    "backup_20241220_092308 2/swo/swomsg": {
+      "files": [
+        "log.go",
+        "messages.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/swo/swosync": {
+      "files": [
+        "logicalsync.go",
+        "start.go",
+        "reset.go",
+        "sequencesync.go",
+        "initialsync.go",
+        "changelog.sql",
+        "README.md",
+        "tablesync.go",
+        "logicalreplicator.go",
+        "queries.sql",
+        "safety.go"
+      ]
+    },
+    "backup_20241220_092308 2/swo/swoinfo": {
+      "files": [
+        "table_test.go",
+        "db.go",
+        "scantables.go",
+        "pgtables.sql",
+        "scansequences.go",
+        "queries.sql",
+        "conninfo.go",
+        "table.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine": {
+      "files": [
+        "config.go",
+        "backend.go",
+        "sendmessage.go",
+        "metrics.go",
+        "callback.go",
+        "isknowndest.go",
+        "engine.go",
+        "queries.sql",
+        "cyclemonitor.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/statusmgr": {
+      "files": [
+        "db.go",
+        "update.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/engine/npcyclemanager": {
+      "files": [
+        "db.go",
+        "update.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/heartbeatmanager": {
+      "files": [
+        "db.go",
+        "process.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/schedulemanager": {
+      "files": [
+        "scheduledata.go",
+        "db.go",
+        "update.go",
+        "update_test.go",
+        "state.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/engine/message": {
+      "files": [
+        "dedupalerts_test.go",
+        "dedupstatusmessages_test.go",
+        "splitpendingbytype_test.go",
+        "bundlealerts.go",
+        "ratelimit_test.go",
+        "db.go",
+        "queue.go",
+        "deduponcallnotifications.go",
+        "bundlealerts_test.go",
+        "ratelimit.go",
+        "message.go",
+        "queue_test.go",
+        "dedupalerts.go",
+        "throttleconfigbuilder_test.go",
+        "throttlerule.go",
+        "throttle_test.go",
+        "splitpendingbytype.go",
+        "status.go",
+        "dedupstatusmessages.go",
+        "throttle.go",
+        "throttleconfigbuilder.go",
+        "queries.sql",
+        "dedupconcallnotifications_test.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/escalationmanager": {
+      "files": [
+        "db.go",
+        "update.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/metricsmanager": {
+      "files": [
+        "db.go",
+        "update.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/processinglock": {
+      "files": [
+        "config.go",
+        "error.go",
+        "type.go",
+        "lock.go",
+        "state.go",
+        "conn.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/signalmgr": {
+      "files": [
+        "db.go",
+        "update.go",
+        "queries.sql"
+      ]
+    },
+    "backup_20241220_092308 2/engine/verifymanager": {
+      "files": [
+        "db.go",
+        "update.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/cleanupmanager": {
+      "files": [
+        "db.go",
+        "update.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/rotationmanager": {
+      "files": [
+        "db.go",
+        "update.go",
+        "legacyadvance_test.go",
+        "legacyadvance.go",
+        "advance.go"
+      ]
+    },
+    "backup_20241220_092308 2/engine/compatmanager": {
+      "files": [
+        "db.go",
+        "update.go"
+      ]
+    },
+    "backup_20241220_092308 2/logging": {
+      "files": [
+        "errors.slide"
+      ]
+    },
+    "backup_20241220_092308 2/graphql2": {
+      "files": [
+        "gen.go",
+        "isotimestamp.go",
+        "generated.go",
+        "exprscalar.go",
+        "schema.graphql",
+        "mapconfig.go",
+        "maplimit.go",
+        "stringmap.go",
+        "exprscalar_test.go",
+        "inputs.go",
+        "gqlgen.yml",
+        "schema.go",
+        "uuid.go",
+        "models_gen.go"
+      ]
+    },
+    "backup_20241220_092308 2/graphql2/graph": {
+      "files": [
+        "_Mutation.graphqls",
+        "destinations.graphqls",
+        "gqlapikeys.graphqls",
+        "errorcodes.graphqls",
+        "univkeys.graphqls",
+        "expr.graphqls",
+        "escalationpolicy.graphqls",
+        "_directives.graphqls",
+        "_Query.graphqls"
+      ]
+    },
+    "backup_20241220_092308 2/graphql2/graphqlapp": {
+      "files": [
+        "toolbox.go",
+        "query.go",
+        "heartbeatmonitor.go",
+        "parseuuid.go",
+        "slack.manifest.yaml",
+        "config.go",
+        "compat.go",
+        "destinationvalidation.go",
+        "service.go",
+        "user.go",
+        "metrics.go",
+        "gqlapikeys.go",
+        "messagelog.go",
+        "swo.go",
+        "limit.go",
+        "swo_test.go",
+        "notificationrule.go",
+        "dataloaders.go",
+        "schedulerule.go",
+        "useroverride.go",
+        "contactmethod.go",
+        "integrationkey.go",
+        "mutation.go",
+        "target.go",
+        "app.go",
+        "label.go",
+        "calendarsubscription.go",
+        "directives.go",
+        "alert.go",
+        "expr.go",
+        "expr_test.go",
+        "destinationdisplayinfo.go",
+        "slack.go",
+        "tx.go",
+        "queries.sql",
+        "timezone.go",
+        "oncall.go",
+        "destinationtypes.go",
+        "rotation.go",
+        "escalationpolicy.go",
+        "schedule.go"
+      ]
+    },
+    "backup_20241220_092308 2/validation": {
+      "files": [
+        "genericerror.go",
+        "wraperror.go",
+        "fieldvalidationerror.go"
+      ]
+    },
+    "backup_20241220_092308 2/validation/validate": {
+      "files": [
+        "labelkey.go",
+        "idname.go",
+        "labelvalue.go",
+        "uuid_test.go",
+        "subjectid.go",
+        "phone.go",
+        "jmespath_test.go",
+        "oauthscope_test.go",
+        "oneof_test.go",
+        "jmespath.go",
+        "duration.go",
+        "range.go",
+        "ascii.go",
+        "oneof.go",
+        "search.go",
+        "text.go",
+        "labelvalue_test.go",
+        "email.go",
+        "labelkey_test.go",
+        "idname_test.go",
+        "many.go",
+        "phone_test.go",
+        "name_test.go",
+        "twiliofromvalue.go",
+        "username.go",
+        "url.go",
+        "uuid.go",
+        "name.go",
+        "oauthscope.go",
+        "many_test.go",
+        "analytics.go"
+      ]
+    },
+    "backup_20241220_092308 2/validation/validate/testdata": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/validation/validate/testdata/fuzz": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/validation/validate/testdata/fuzz/FuzzJMESPath": {
+      "files": [
+        "56b1dff6e89281145efa3f46de8e3710d757f144714d54b9b5826e7701ded458"
+      ]
+    },
+    "backup_20241220_092308 2/pkg": {
+      "files": [
+      ]
+    },
+    "backup_20241220_092308 2/pkg/sysapi": {
+      "files": [
+        "newtls.go",
+        "sysapi_grpc.pb.go",
+        "sysapi.proto",
+        "sysapi.pb.go",
+        "client_test.go",
+        "certs.md"
+      ]
+    },
+    "backup_20241220_092308 2/dataloader": {
+      "files": [
+        "loader.go",
+        "loader_test.go"
+      ]
+    }
+  },
+  "sourceDirectories": [
+    "master_src"
+  ]
+}
